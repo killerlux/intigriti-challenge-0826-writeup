@@ -6,7 +6,7 @@ description: "From a blocked channel to reviewer-side XSS"
 
 # From a blocked channel to reviewer-side XSS: Intigriti Challenge 0826
 
-*Write-up by takedownnnn*
+*Write-up by killerlux*
 
 The page looked small: ten video channels, one report form, and a bot somewhere behind it. The interesting part was the mismatch between those pieces. The frontend only exposed channels 1 through 10, the report form accepted more than the UI suggested, and the reviewer ran under a different access boundary.
 
